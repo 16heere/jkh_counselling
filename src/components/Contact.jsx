@@ -195,6 +195,17 @@ export default function Contact() {
                     </form>
                 </div>
             </div>
+
+            <div className="accreditation-logos">
+                <img
+                    src="/images/BACP_Logo_-_420374.png"
+                    alt="BACP Registered Member 420374 MBACP"
+                />
+                <img
+                    src="/images/BAATN_Practitioner-Member-logo.jpg"
+                    alt="Practitioner Member of BAATN - The Black, African and Asian Therapy Network"
+                />
+            </div>
         </section>
     );
 }
