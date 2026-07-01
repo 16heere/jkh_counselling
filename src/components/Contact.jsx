@@ -89,6 +89,16 @@ export default function Contact() {
           </a> */}
                 </div>
 
+                <blockquote className="tab-quote">
+                    <p>
+                        "Deep understanding is, I believe, the most precious
+                        gift one can give to another."
+                    </p>
+                    <cite>
+                        — Carl Rogers, <em>A Way of Being</em>
+                    </cite>
+                </blockquote>
+
                 <div className="contact-right">
                     <form
                         ref={formRef}
