@@ -1,6 +1,8 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
+import bacpLogo from "../assets/BACP_Logo_-_420374.png";
+import baatnLogo from "../assets/BAATN_Practitioner-Member-logo.jpg";
 
 export default function Contact() {
     const formRef = useRef(null);
@@ -197,14 +199,8 @@ export default function Contact() {
             </div>
 
             <div className="accreditation-logos">
-                <img
-                    src="/images/BACP_Logo_-_420374.png"
-                    alt="BACP Registered Member 420374 MBACP"
-                />
-                <img
-                    src="/images/BAATN_Practitioner-Member-logo.jpg"
-                    alt="Practitioner Member of BAATN - The Black, African and Asian Therapy Network"
-                />
+                <img src={bacpLogo} alt="BACP Registered Member 420374 MBACP" />
+                <img src={baatnLogo} alt="Practitioner Member of BAATN" />
             </div>
         </section>
     );
