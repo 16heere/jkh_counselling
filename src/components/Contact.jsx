@@ -1,13 +1,12 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
-import bacpLogo from "../assets/BACP_Logo_-_420374.png";
-import baatnLogo from "../assets/BAATN_Practitioner-Member-logo.jpg";
+import bacpLogo from "../assets/BACP Logo - 420374.png";
+import baatnLogo from "../assets/BAATN Practitioner-Member-logo.jpg";
 
 export default function Contact() {
     const formRef = useRef(null);
-    const [status, setStatus] = useState("idle"); // idle | sending | success | error
-
+    const [status, setStatus] = useState("idle");
     const handleSubmit = (e) => {
         e.preventDefault();
         setStatus("sending");
