@@ -4,6 +4,9 @@ export default function Hero({ onNavigate }) {
     return (
         <section id="home" className="hero">
             <div className="hero-bg">
+                <div className="hero-leaf-1">
+                    <LeafMark />
+                </div>
                 <div className="hero-circle hero-circle--1" />
                 <div className="hero-circle hero-circle--2" />
                 <div className="hero-leaf">
@@ -48,6 +51,16 @@ export default function Hero({ onNavigate }) {
                         <span>Online &amp; In-Person</span>
                     </div>
                 </div>
+
+                <blockquote className="tab-quote-hero">
+                    <p>
+                        "The curious paradox is that when I accept myself just
+                        as I am, then I can change."
+                    </p>
+                    <cite>
+                        — Carl Rogers, <em>On Becoming a Person</em>
+                    </cite>
+                </blockquote>
             </div>
 
             <div

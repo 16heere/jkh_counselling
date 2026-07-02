@@ -81,11 +81,12 @@ export default function About() {
                         <div className="tab-panel fade-in">
                             <blockquote className="tab-quote">
                                 <p>
-                                    "The curious paradox is that when I accept
-                                    myself just as I am, then I can change."
+                                    "There is no greater agony than bearing an
+                                    untold story inside you."
                                 </p>
                                 <cite>
-                                    — Carl Rogers, <em>On Becoming a Person</em>
+                                    — Maya Angelou,{" "}
+                                    <em>I Know Why the Caged Bird Sings</em>
                                 </cite>
                             </blockquote>
                             <div className="two-col">
@@ -147,12 +148,12 @@ export default function About() {
                         <div className="tab-panel fade-in">
                             <blockquote className="tab-quote">
                                 <p>
-                                    "There is no greater agony than bearing an
-                                    untold story inside you."
+                                    "The good life is a process, not a state of
+                                    being. It is a direction, not a
+                                    destination."
                                 </p>
                                 <cite>
-                                    — Maya Angelou,{" "}
-                                    <em>I Know Why the Caged Bird Sings</em>
+                                    — Carl Rogers, <em>On Becoming a Person</em>
                                 </cite>
                             </blockquote>
                             <div className="approach-grid">
@@ -201,16 +202,6 @@ export default function About() {
 
                     {active === "help" && (
                         <div className="tab-panel fade-in">
-                            <blockquote className="tab-quote">
-                                <p>
-                                    "The good life is a process, not a state of
-                                    being. It is a direction, not a
-                                    destination."
-                                </p>
-                                <cite>
-                                    — Carl Rogers, <em>On Becoming a Person</em>
-                                </cite>
-                            </blockquote>
                             <p className="help-intro">
                                 Counselling can support you through a wide range
                                 of emotional, personal, and life challenges. You
