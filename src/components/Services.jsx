@@ -14,9 +14,9 @@ const services = [
                 <path d="M8 6.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m7 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
             </svg>
         ),
-        title: "Zoom Session",
+        title: "Online Session",
         price: "£50",
-        desc: "I offer online counselling sessions via Zoom for clients across the UK. This provides a flexible and accessible way to receive support from the comfort of your own home, particularly if you live outside the local area or are unable to attend in person. Sessions are arranged by appointment and should take place in a quiet, private space where you feel safe and comfortable.",
+        desc: "I offer online counselling sessions via Online for clients across the UK. This provides a flexible and accessible way to receive support from the comfort of your own home, particularly if you live outside the local area or are unable to attend in person. Sessions are arranged by appointment and should take place in a quiet, private space where you feel safe and comfortable.",
         highlight: "Most popular",
     },
     {

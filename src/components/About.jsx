@@ -48,7 +48,7 @@ const experience = [
     "Person-Centred, CBT & DBT approaches",
     "Working with adults and children",
     "Mental Health Charity sector",
-    "Face to face, Zoom, and telephone sessions",
+    "Face to face, Online, and telephone sessions",
     "Clients from diverse cultural backgrounds",
 ];
 

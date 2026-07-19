@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: 'Are online sessions as effective as in-person?',
-    a: 'Yes. Research consistently shows that online therapy can be just as effective as face-to-face sessions for most people. Zoom sessions offer flexibility and privacy, and many clients find it easier to open up from the comfort of their own home.',
+    a: 'Yes. Research consistently shows that online therapy can be just as effective as face-to-face sessions for most people. Online sessions offer flexibility and privacy, and many clients find it easier to open up from the comfort of their own home.',
   },
 ];
 

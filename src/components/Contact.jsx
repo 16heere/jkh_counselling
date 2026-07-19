@@ -71,7 +71,7 @@ export default function Contact() {
                             <div>
                                 <div className="detail-label">Sessions</div>
                                 <div className="detail-value">
-                                    Zoom · Home Visit · Walk &amp; Talk
+                                    Online · Home Visit · Walk &amp; Talk
                                 </div>
                             </div>
                         </div>
